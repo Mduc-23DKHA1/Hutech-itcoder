@@ -1,0 +1,3 @@
+for _ in range(int(input())):
+    n = int(input())
+    print("Yes" if n% 400 == 0 or (n % 4 == 0 and n % 100 != 0) else "No")
